@@ -71,7 +71,7 @@ export default function Team() {
           </p>
         </motion.div>
 
-        <div className="mt-20 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-20 grid gap-8 md:grid-cols-2  lg:grid-cols-3">
           {team.map((member, index) => (
             <motion.div
               key={member.name}
